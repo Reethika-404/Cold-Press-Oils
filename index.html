@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Bhavani Cold Pressed Oils</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">Sri Bhavani Cold Pressed Oils</div>
+    <div class="nav">
+      <span><a href="#home">Home</a></span>
+      <span><a href="#products">Products</a></span>
+      <span><a href="#cart">Cart</a></span>
+      <span class="contact"><a href="#contact">Contact</a></span>
+    </div>
+  </nav>
+  <header id="href">
+    <h1>Cold Pressed Oils For Sale</h1>
+  </header>
+  <section id="products">
+    <h2>Our Oils</h2>
+    <div class="container">
+      <div class="product">
+        <img src="C:\SriBhavaniWeb\images\groundnut.png" alt="groundnut oil">
+        <div class="content">
+          <div id="groundnut">Groundnut Oil</div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque quis quibusdam quod laborum
+            dignissimos vitae, autem animi natus. Nam voluptas deserunt nostrum.</p>
+          <p class="price">Price-₹350/Liter</p>
+          <button onclick="go()">Add to Cart</button>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="product">
+        <img src="C:\SriBhavaniWeb\images\mustard.png" alt="groundnut oil">
+        <div class="content">
+          <div id="groundnut">Mustard Oil</div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque quis quibusdam quod laborum
+            dignissimos vitae, autem animi natus. Nam voluptas deserunt nostrum.</p>
+          <p class="price">Price-₹550/Liter</p>
+          <button onclick="mo()">Add to Cart</button>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="product">
+        <img src="C:\SriBhavaniWeb\images\coconut.png" alt="groundnut oil">
+        <div class="content">
+          <div id="groundnut">Coconut Oil</div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque quis quibusdam quod laborum
+            dignissimos vitae, autem animi natus. Nam voluptas deserunt nostrum.</p>
+          <p class="price">Price-₹800/Liter</p>
+          <button onclick="co()">Add to Cart</button>
+        </div>
+        <div class="divider"></div>
+      </div>
+  </section>
+  <div class="divider"></div>
+  <section id="cart">
+    <h2>Cart</h2>
+    <div class="cartContainer">
+      <ul id="list">
+      </ul>
+    </div>
+    <div id="total">Total: ₹0</div>
+  </section>
+  <!-- Buyer Details Form -->
+  <section id="buyer-details">
+    <h2>Buyer Details</h2>
+    <form id="detailsForm">
+      <input type="text" id="name" placeholder="Full Name" class="details" required><br>
+      <input type="email" id="email" placeholder="Email" class="details" required><br>
+      <input type="tel" id="phone" placeholder="Phone Number" class="details" required><br>
+      <textarea id="address" placeholder="Delivery Address" class="details" required></textarea><br>
+      <button type="button" onclick="checkout()">Buy</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
